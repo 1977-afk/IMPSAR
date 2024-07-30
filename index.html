@@ -1,6 +1,99 @@
-git clone https://github.com/tu-usuario/IMPSAR.git
-cd IMPSAR
-cp /ruta/a/tu/IMPSAR.html .
-git add IMPSAR.html
-git commit -m "Añadir página web inicial"
-git push origin main
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPSAR - Impulsando el Saber</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #d32f2f;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header img {
+            height: 100px;
+        }
+        nav {
+            background-color: #c2185b;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #d32f2f;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Imagen IMPSAE.jpeg" alt="IMPSAR Logo">
+        <h1>IMPSAR - Impulsando el Saber</h1>
+        <p>Determinación y Firmeza</p>
+    </header>
+    <nav>
+        <a href="#about">Nosotros</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>Acerca de Nosotros</h2>
+            <p>IMPSAR se dedica a la capacitación profesional en áreas Teológicas, Contables y Administrativas. Nuestros directivos, Pedro Ramírez Aguilar y Celia Cruz Mauricio, lideran con determinación y firmeza para brindar la mejor formación a nuestros estudiantes.</p>
+        </section>
+        <section id="services" class="content">
+            <div class="card">
+                <h3>Área Teológica</h3>
+                <p>Ofrecemos cursos avanzados en estudios teológicos para profundizar en el conocimiento y la práctica de la fe.</p>
+            </div>
+            <div class="card">
+                <h3>Área Contable</h3>
+                <p>Capacitación en contabilidad para profesionales que buscan mejorar sus habilidades en gestión financiera.</p>
+            </div>
+            <div class="card">
+                <h3>Área Administrativa</h3>
+                <p>Formación en administración de empresas para líderes y gerentes que desean optimizar sus competencias.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Próximamente más información y enlaces a nuestras redes sociales.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 IMPSAR - Impulsando el Saber. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
